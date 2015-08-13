@@ -3,6 +3,11 @@ from pygame.locals import *
 import sys
 import math
 
+class Stone:
+    def __init__(self,initial_color):
+        self.__colors = ["white","black"]
+        
+
 def color(Num):
     if Num == 1:
         return "white"
