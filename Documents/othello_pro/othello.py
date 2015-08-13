@@ -1,8 +1,6 @@
 import pygame
 from pygame.locals import *
 import sys
-import PygameSupportLibrary
-from PygameSupportLibrary import Image
 import math
 
 def color(Num):
